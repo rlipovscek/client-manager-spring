@@ -13,6 +13,10 @@ Api para gestão de clientes
    `$ mvn test` 
    
 ## rodar via docker
+
+   Criar pacote (caso não tenha rodado os comandos anteriores):
+  `$  mvn clean package`  
+  
   Criar a imagem:
   `$ docker build -t client-manager-claro:v1 .` 
   

@@ -28,13 +28,13 @@ Api para gestão de clientes
   `$ docker-compose up -d --build` 
   
 
-### Documentação
+### Documentação 
 [Swagger](http://localhost:8092/swagger-ui.html#/)
 
 `http://localhost:8092/swagger-ui.html`
 
 ### Health check
- O projeto utiliza o actuator do spring para o monitoramento do estado do microservice, para verificar o estádo utilize o seguinte link:
+ O projeto utiliza o actuator do spring para o monitoramento do estado do microservice, para verificar o estado utilize o seguinte link:
  [health](http://localhost:8092/actuator/health)
  
  `http://localhost:8092/actuator/health`

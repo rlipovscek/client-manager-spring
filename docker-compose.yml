@@ -1,0 +1,10 @@
+version: "3"
+services:
+  claro-client-manager:
+    hostname: "claro-client-manager"
+    container_name: "claro-client-manager"
+    build: "."
+    ports:
+      - "8092:8092"
+    expose:
+      - "8092"
